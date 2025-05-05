@@ -91,7 +91,9 @@ export default function ApartmentWetRoomsPage() {
                   </ul>
                 </div>
               </div>
-              <Button>Pyydä tarjous</Button>
+              <Button asChild>
+                <Link href="/yhteystiedot">Pyydä tarjous</Link>
+              </Button>
             </div>
           </div>
         </Card>
@@ -242,7 +244,9 @@ export default function ApartmentWetRoomsPage() {
                 </ul>
               </div>
 
-              <Button className="mt-4">Pyydä vastaava tarjous</Button>
+              <Button className="mt-4" asChild>
+                <Link href="/yhteystiedot">Pyydä vastaava tarjous</Link>
+              </Button>
             </div>
 
             <div className="space-y-4">
@@ -330,7 +334,9 @@ export default function ApartmentWetRoomsPage() {
         <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
           Ota yhteyttä ja kerro meille toiveistasi. Autamme sinua suunnittelussa ja toteutuksessa alusta loppuun.
         </p>
-        <Button size="lg">Ota yhteyttä</Button>
+        <Button size="lg" asChild>
+          <Link href="/yhteystiedot">Ota yhteyttä</Link>
+        </Button>
       </div>
     </div>
   )

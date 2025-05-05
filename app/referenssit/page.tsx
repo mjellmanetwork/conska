@@ -57,7 +57,7 @@ export default function ReferencesPage() {
 
       {/* Update Notice */}
       <div className="mb-12 p-6 bg-muted/40 rounded-lg text-center">
-        <p className="text-muted-foreground md:text-lg">
+        <p className="text-green-600 md:text-lg">
           Päivitämme referenssilistaamme parhaillaan. Lisää kohteita ilmestyy jatkuvasti.
         </p>
       </div>
