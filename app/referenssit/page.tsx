@@ -55,6 +55,13 @@ export default function ReferencesPage() {
         </div>
       </div>
 
+      {/* Update Notice */}
+      <div className="mb-12 p-6 bg-muted/40 rounded-lg text-center">
+        <p className="text-muted-foreground md:text-lg">
+          Päivitämme referenssilistaamme parhaillaan. Lisää kohteita ilmestyy jatkuvasti.
+        </p>
+      </div>
+
       <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         {categories.map((category, index) => (
           <Link href={category.link} key={index} className="group">

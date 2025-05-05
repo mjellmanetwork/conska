@@ -54,8 +54,8 @@ export default function ServicesPage() {
                 <span>Parvekekaiteet ja -lasitukset</span>
               </li>
             </ul>
-            <Button variant="outline" size="sm" className="w-fit">
-              Lue lisää
+            <Button variant="outline" size="sm" className="w-fit" asChild>
+              <Link href="/referenssit/julkisivu-parvekesaneeraus">Lue lisää</Link>
             </Button>
           </CardContent>
         </Card>
@@ -90,8 +90,8 @@ export default function ServicesPage() {
                 <span>Kuntokartoitukset</span>
               </li>
             </ul>
-            <Button variant="outline" size="sm" className="w-fit">
-              Lue lisää
+            <Button variant="outline" size="sm" className="w-fit" asChild>
+              <Link href="/referenssit/korjausrakentaminen">Lue lisää</Link>
             </Button>
           </CardContent>
         </Card>
@@ -126,8 +126,8 @@ export default function ServicesPage() {
                 <span>Peltityöt ja pellitykset</span>
               </li>
             </ul>
-            <Button variant="outline" size="sm" className="w-fit">
-              Lue lisää
+            <Button variant="outline" size="sm" className="w-fit" asChild>
+              <Link href="/referenssit/vesikatto-peltityot">Lue lisää</Link>
             </Button>
           </CardContent>
         </Card>
@@ -167,8 +167,8 @@ export default function ServicesPage() {
                 <span>Pintaremontit</span>
               </li>
             </ul>
-            <Button variant="outline" size="sm" className="w-fit">
-              Lue lisää
+            <Button variant="outline" size="sm" className="w-fit" asChild>
+              <Link href="/referenssit/huoneistoremontit-markatilat">Lue lisää</Link>
             </Button>
           </CardContent>
         </Card>
@@ -208,8 +208,8 @@ export default function ServicesPage() {
                 <span>Perinteiset rakennustekniikat</span>
               </li>
             </ul>
-            <Button variant="outline" size="sm" className="w-fit">
-              Lue lisää
+            <Button variant="outline" size="sm" className="w-fit" asChild>
+              <Link href="/referenssit/museokohteet">Lue lisää</Link>
             </Button>
           </CardContent>
         </Card>
@@ -259,8 +259,8 @@ export default function ServicesPage() {
           <p className="text-muted-foreground mb-8 md:text-lg">
             Ota yhteyttä ja kerro meille tarpeistasi. Autamme sinua toteuttamaan projektisi alusta loppuun.
           </p>
-          <Button size="lg" className="px-8">
-            Pyydä tarjous
+          <Button size="lg" className="px-8" asChild>
+            <Link href="/yhteystiedot">Pyydä tarjous</Link>
           </Button>
         </div>
       </div>

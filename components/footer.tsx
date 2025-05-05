@@ -3,17 +3,19 @@ import Image from "next/image"
 import { Mail, Phone, MapPin, FileText } from "lucide-react"
 
 export default function Footer() {
+  const currentYear = new Date().getFullYear()
+
   return (
-    <footer className="w-full border-t bg-background py-8 md:py12">
+    <footer className="w-full border-t bg-background py-12">
       <div className="container">
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-3 lg:grid-cols-4">
+        <div className="grid grid-cols-1 gap-10 md:grid-cols-4">
           {/* Logo and Company Info */}
           <div className="flex flex-col space-y-4">
-            <Image src="/images/conska-logo.png" alt="Conska Oy Logo" width={120} height={30} className="h-auto" />
+            <Link href="/" className="inline-block">
+              <Image src="/images/conska-logo.png" alt="Conska Oy Logo" width={140} height={35} className="h-auto" />
+            </Link>
             <p className="text-sm text-muted-foreground">Rakentaminen on palveluala</p>
-            <p className="text-sm text-muted-foreground">
-              © {new Date().getFullYear()} Conska Oy. Kaikki oikeudet pidätetään.
-            </p>
+            <p className="text-sm text-muted-foreground">© {currentYear} Conska Oy. Kaikki oikeudet pidätetään.</p>
           </div>
 
           {/* Contact Information */}
@@ -32,11 +34,15 @@ export default function Footer() {
             </div>
             <div className="flex items-center space-x-2">
               <Phone className="h-5 w-5 text-primary" />
-              <span className="text-sm">041 3136339</span>
+              <a href="tel:0413136339" className="text-sm hover:underline">
+                041 3136339
+              </a>
             </div>
             <div className="flex items-center space-x-2">
               <Mail className="h-5 w-5 text-primary" />
-              <span className="text-sm">info@conska.fi</span>
+              <a href="mailto:info@conska.fi" className="text-sm hover:underline">
+                info@conska.fi
+              </a>
             </div>
             <div className="flex items-center space-x-2">
               <FileText className="h-5 w-5 text-primary" />
@@ -88,6 +94,30 @@ export default function Footer() {
                 Käyttöehdot
               </Link>
             </nav>
+          </div>
+        </div>
+
+        {/* Social Media and Certifications - New Section */}
+        <div className="mt-12 pt-8 border-t border-muted">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-6">
+            <div className="flex gap-4 items-center">
+              <Image src="/images/aaa-logo.png" alt="AAA-luottoluokitus" width={60} height={30} className="h-auto" />
+              <Image
+                src="/images/luotettava-kumppani-green.png"
+                alt="Luotettava Kumppani"
+                width={100}
+                height={30}
+                className="h-auto"
+              />
+            </div>
+            <div>
+              <p className="text-sm text-muted-foreground text-center md:text-right">
+                Conska Oy | Y-tunnus: 2469661-2 |{" "}
+                <a href="mailto:info@conska.fi" className="hover:underline">
+                  info@conska.fi
+                </a>
+              </p>
+            </div>
           </div>
         </div>
       </div>
