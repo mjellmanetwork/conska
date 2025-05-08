@@ -154,4 +154,3 @@ class Line extends Shape {
     ctx.stroke()
   }
 }
-

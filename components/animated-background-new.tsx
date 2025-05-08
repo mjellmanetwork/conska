@@ -188,4 +188,3 @@ class Particle {
     ctx.restore()
   }
 }
-

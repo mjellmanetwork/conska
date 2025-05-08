@@ -159,4 +159,3 @@ class NetworkParticle {
     ctx.restore()
   }
 }
-

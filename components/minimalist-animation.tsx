@@ -115,4 +115,3 @@ class Particle {
     ctx.fill()
   }
 }
-
