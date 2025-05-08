@@ -105,7 +105,7 @@ export default function ContactPage() {
           vaiheessa.
         </p>
 
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-4xl mx-auto">
+        <div className="grid gap-8 md:grid-cols-2 max-w-4xl mx-auto">
           {/* Muhamet Hajdari */}
           <Card>
             <CardContent className="p-6">
@@ -121,26 +121,6 @@ export default function ContactPage() {
                 <div className="flex items-center justify-center gap-2">
                   <Mail className="h-4 w-4 text-primary" />
                   <span>muhamet@conska.fi</span>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
-
-          {/* Ari-Pekka Moisanen */}
-          <Card>
-            <CardContent className="p-6">
-              <div className="flex flex-col items-center text-center">
-                <h3 className="text-xl font-bold mt-4">Ari-Pekka Moisanen</h3>
-                <p className="text-primary font-medium mb-2">Projektinjohtaja</p>
-                <p className="text-muted-foreground mb-4">Rakennusprosessin kokonaisohjaus</p>
-
-                <div className="flex items-center justify-center gap-2 mb-2">
-                  <Phone className="h-4 w-4 text-primary" />
-                  <span>040 4190172</span>
-                </div>
-                <div className="flex items-center justify-center gap-2">
-                  <Mail className="h-4 w-4 text-primary" />
-                  <span>ap@conska.fi</span>
                 </div>
               </div>
             </CardContent>
@@ -278,3 +258,4 @@ export default function ContactPage() {
     </div>
   )
 }
+

@@ -59,3 +59,4 @@ function mergeConfig(nextConfig, userConfig) {
 }
 
 export default nextConfig
+

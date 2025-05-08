@@ -12,6 +12,12 @@ export default function ReferencesPage() {
       link: "/referenssit/julkisivu-parvekesaneeraus",
     },
     {
+      title: "Hiekkapuhallus",
+      description: "Märkähiekkapuhallus Torbo-menetelmällä monipuolisiin käyttökohteisiin",
+      image: "/images/torbo-equipment.jpeg",
+      link: "/referenssit/hiekkapuhallus",
+    },
+    {
       title: "Korjausrakentaminen",
       description: "Vanhojen rakennusten korjaus- ja kunnostustyöt",
       image: "/images/korjausrakentaminen.jpeg",
@@ -36,12 +42,6 @@ export default function ReferencesPage() {
         "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/5781196110580ca5d21bce66dc2c5c61-N35Zp9SyJfyANM6ges1bM8ZVyZtdw9.png",
       link: "/referenssit/museokohteet",
     },
-    {
-      title: "Hiekkapuhallus",
-      description: "Märkähiekkapuhallus Torbo-menetelmällä monipuolisiin käyttökohteisiin",
-      image: "/images/torbo-equipment.jpeg",
-      link: "/referenssit/hiekkapuhallus",
-    },
   ]
 
   return (
@@ -53,13 +53,6 @@ export default function ReferencesPage() {
             Tutustu toteutettuihin projekteihin ja osaamisalueisiimme. Valitse kategoria nähdäksesi lisää.
           </p>
         </div>
-      </div>
-
-      {/* Update Notice */}
-      <div className="mb-12 p-6 bg-muted/40 rounded-lg text-center">
-        <p className="text-green-600 md:text-lg">
-          Päivitämme referenssilistaamme parhaillaan. Lisää kohteita ilmestyy jatkuvasti.
-        </p>
       </div>
 
       <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
@@ -93,3 +86,4 @@ export default function ReferencesPage() {
     </div>
   )
 }
+

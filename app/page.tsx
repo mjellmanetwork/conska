@@ -112,6 +112,24 @@ export default function Home() {
             <Card>
               <CardHeader className="pb-2">
                 <div className="relative w-full h-48 mb-4 rounded-t-lg overflow-hidden">
+                  <Image src="/images/torbo-equipment.jpeg" alt="Hiekkapuhallus" fill className="object-cover" />
+                </div>
+                <CardTitle>Hiekkapuhallus</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground mb-4">
+                  Märkähiekkapuhallus Torbo-menetelmällä monipuolisiin käyttökohteisiin uusimmalla TorboCar AC 84
+                  -kalustolla.
+                </p>
+                <Button variant="outline" size="sm" asChild>
+                  <Link href="/referenssit/hiekkapuhallus">Lue lisää</Link>
+                </Button>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardHeader className="pb-2">
+                <div className="relative w-full h-48 mb-4 rounded-t-lg overflow-hidden">
                   <Image
                     src="/images/korjausrakentaminen.jpeg"
                     alt="Korjausrakentaminen"
@@ -188,24 +206,6 @@ export default function Home() {
                 </p>
                 <Button variant="outline" size="sm" asChild>
                   <Link href="/referenssit/museokohteet">Lue lisää</Link>
-                </Button>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader className="pb-2">
-                <div className="relative w-full h-48 mb-4 rounded-t-lg overflow-hidden">
-                  <Image src="/images/torbo-equipment.jpeg" alt="Hiekkapuhallus" fill className="object-cover" />
-                </div>
-                <CardTitle>Hiekkapuhallus</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground mb-4">
-                  Märkähiekkapuhallus Torbo-menetelmällä monipuolisiin käyttökohteisiin uusimmalla TorboCar AC 84
-                  -kalustolla.
-                </p>
-                <Button variant="outline" size="sm" asChild>
-                  <Link href="/referenssit/hiekkapuhallus">Lue lisää</Link>
                 </Button>
               </CardContent>
             </Card>
@@ -534,3 +534,4 @@ export default function Home() {
     </div>
   )
 }
+

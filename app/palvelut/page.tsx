@@ -54,162 +54,8 @@ export default function ServicesPage() {
                 <span>Parvekekaiteet ja -lasitukset</span>
               </li>
             </ul>
-            <Button variant="outline" size="sm" className="w-fit" asChild>
-              <Link href="/referenssit/julkisivu-parvekesaneeraus">Lue lisää</Link>
-            </Button>
-          </CardContent>
-        </Card>
-
-        {/* Korjausrakentaminen */}
-        <Card className="flex flex-col">
-          <CardHeader className="pb-2">
-            <div className="relative w-full h-48 mb-4 rounded-t-lg overflow-hidden">
-              <Image src="/images/korjausrakentaminen.jpeg" alt="Korjausrakentaminen" fill className="object-cover" />
-            </div>
-            <CardTitle>Korjausrakentaminen</CardTitle>
-            <CardDescription className="text-base">
-              Vanhojen rakennusten korjaus- ja kunnostustyöt niiden arvoa kunnioittaen.
-            </CardDescription>
-          </CardHeader>
-          <CardContent className="flex-1 flex flex-col">
-            <ul className="space-y-2 mb-6 flex-1">
-              <li className="flex items-start">
-                <CheckCircle className="mr-2 h-5 w-5 text-primary mt-0.5" />
-                <span>Peruskorjaukset</span>
-              </li>
-              <li className="flex items-start">
-                <CheckCircle className="mr-2 h-5 w-5 text-primary mt-0.5" />
-                <span>Tilamuutokset</span>
-              </li>
-              <li className="flex items-start">
-                <CheckCircle className="mr-2 h-5 w-5 text-primary mt-0.5" />
-                <span>Talotekniikan uusiminen</span>
-              </li>
-              <li className="flex items-start">
-                <CheckCircle className="mr-2 h-5 w-5 text-primary mt-0.5" />
-                <span>Kuntokartoitukset</span>
-              </li>
-            </ul>
-            <Button variant="outline" size="sm" className="w-fit" asChild>
-              <Link href="/referenssit/korjausrakentaminen">Lue lisää</Link>
-            </Button>
-          </CardContent>
-        </Card>
-
-        {/* Vesikatto ja peltityöt */}
-        <Card className="flex flex-col">
-          <CardHeader className="pb-2">
-            <div className="relative w-full h-48 mb-4 rounded-t-lg overflow-hidden">
-              <Image src="/images/vesikatto.jpeg" alt="Vesikatto ja peltityöt" fill className="object-cover" />
-            </div>
-            <CardTitle>Vesikatto ja peltityöt</CardTitle>
-            <CardDescription className="text-base">
-              Vesikattojen uusiminen ja peltityöt ammattitaidolla ja laadukkailla materiaaleilla.
-            </CardDescription>
-          </CardHeader>
-          <CardContent className="flex-1 flex flex-col">
-            <ul className="space-y-2 mb-6 flex-1">
-              <li className="flex items-start">
-                <CheckCircle className="mr-2 h-5 w-5 text-primary mt-0.5" />
-                <span>Vesikattojen uusiminen</span>
-              </li>
-              <li className="flex items-start">
-                <CheckCircle className="mr-2 h-5 w-5 text-primary mt-0.5" />
-                <span>Kattoturvatuotteet</span>
-              </li>
-              <li className="flex items-start">
-                <CheckCircle className="mr-2 h-5 w-5 text-primary mt-0.5" />
-                <span>Sadevesijärjestelmät</span>
-              </li>
-              <li className="flex items-start">
-                <CheckCircle className="mr-2 h-5 w-5 text-primary mt-0.5" />
-                <span>Peltityöt ja pellitykset</span>
-              </li>
-            </ul>
-            <Button variant="outline" size="sm" className="w-fit" asChild>
-              <Link href="/referenssit/vesikatto-peltityot">Lue lisää</Link>
-            </Button>
-          </CardContent>
-        </Card>
-
-        {/* Huoneistoremontit & märkätilat */}
-        <Card className="flex flex-col">
-          <CardHeader className="pb-2">
-            <div className="relative w-full h-48 mb-4 rounded-t-lg overflow-hidden">
-              <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_0268-682x1024.jpg-xAjSYeGuinfxofxsYVakfA58d5VIRF.jpeg"
-                alt="Huoneistoremontit & märkätilat"
-                fill
-                className="object-cover"
-              />
-            </div>
-            <CardTitle>Huoneistoremontit & märkätilat</CardTitle>
-            <CardDescription className="text-base">
-              Asuntojen ja märkätilojen remontit avaimet käteen -periaatteella.
-            </CardDescription>
-          </CardHeader>
-          <CardContent className="flex-1 flex flex-col">
-            <ul className="space-y-2 mb-6 flex-1">
-              <li className="flex items-start">
-                <CheckCircle className="mr-2 h-5 w-5 text-primary mt-0.5" />
-                <span>Kylpyhuoneremontit</span>
-              </li>
-              <li className="flex items-start">
-                <CheckCircle className="mr-2 h-5 w-5 text-primary mt-0.5" />
-                <span>Keittiöremontit</span>
-              </li>
-              <li className="flex items-start">
-                <CheckCircle className="mr-2 h-5 w-5 text-primary mt-0.5" />
-                <span>Huoneistoremontit</span>
-              </li>
-              <li className="flex items-start">
-                <CheckCircle className="mr-2 h-5 w-5 text-primary mt-0.5" />
-                <span>Pintaremontit</span>
-              </li>
-            </ul>
-            <Button variant="outline" size="sm" className="w-fit" asChild>
-              <Link href="/referenssit/huoneistoremontit-markatilat">Lue lisää</Link>
-            </Button>
-          </CardContent>
-        </Card>
-
-        {/* Museokohteet */}
-        <Card className="flex flex-col">
-          <CardHeader className="pb-2">
-            <div className="relative w-full h-48 mb-4 rounded-t-lg overflow-hidden">
-              <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/5781196110580ca5d21bce66dc2c5c61-N35Zp9SyJfyANM6ges1bM8ZVyZtdw9.png"
-                alt="Museokohteet"
-                fill
-                className="object-cover"
-              />
-            </div>
-            <CardTitle>Museokohteet</CardTitle>
-            <CardDescription className="text-base">
-              Historiallisten ja suojeltujen kohteiden kunnostustyöt niiden arvoa kunnioittaen.
-            </CardDescription>
-          </CardHeader>
-          <CardContent className="flex-1 flex flex-col">
-            <ul className="space-y-2 mb-6 flex-1">
-              <li className="flex items-start">
-                <CheckCircle className="mr-2 h-5 w-5 text-primary mt-0.5" />
-                <span>Restaurointi</span>
-              </li>
-              <li className="flex items-start">
-                <CheckCircle className="mr-2 h-5 w-5 text-primary mt-0.5" />
-                <span>Konservointi</span>
-              </li>
-              <li className="flex items-start">
-                <CheckCircle className="mr-2 h-5 w-5 text-primary mt-0.5" />
-                <span>Rakenteiden vahvistaminen</span>
-              </li>
-              <li className="flex items-start">
-                <CheckCircle className="mr-2 h-5 w-5 text-primary mt-0.5" />
-                <span>Perinteiset rakennustekniikat</span>
-              </li>
-            </ul>
-            <Button variant="outline" size="sm" className="w-fit" asChild>
-              <Link href="/referenssit/museokohteet">Lue lisää</Link>
+            <Button variant="outline" size="sm" className="w-fit">
+              Lue lisää
             </Button>
           </CardContent>
         </Card>
@@ -250,6 +96,160 @@ export default function ServicesPage() {
             </Button>
           </CardContent>
         </Card>
+
+        {/* Korjausrakentaminen */}
+        <Card className="flex flex-col">
+          <CardHeader className="pb-2">
+            <div className="relative w-full h-48 mb-4 rounded-t-lg overflow-hidden">
+              <Image src="/images/korjausrakentaminen.jpeg" alt="Korjausrakentaminen" fill className="object-cover" />
+            </div>
+            <CardTitle>Korjausrakentaminen</CardTitle>
+            <CardDescription className="text-base">
+              Vanhojen rakennusten korjaus- ja kunnostustyöt niiden arvoa kunnioittaen.
+            </CardDescription>
+          </CardHeader>
+          <CardContent className="flex-1 flex flex-col">
+            <ul className="space-y-2 mb-6 flex-1">
+              <li className="flex items-start">
+                <CheckCircle className="mr-2 h-5 w-5 text-primary mt-0.5" />
+                <span>Peruskorjaukset</span>
+              </li>
+              <li className="flex items-start">
+                <CheckCircle className="mr-2 h-5 w-5 text-primary mt-0.5" />
+                <span>Tilamuutokset</span>
+              </li>
+              <li className="flex items-start">
+                <CheckCircle className="mr-2 h-5 w-5 text-primary mt-0.5" />
+                <span>Talotekniikan uusiminen</span>
+              </li>
+              <li className="flex items-start">
+                <CheckCircle className="mr-2 h-5 w-5 text-primary mt-0.5" />
+                <span>Kuntokartoitukset</span>
+              </li>
+            </ul>
+            <Button variant="outline" size="sm" className="w-fit">
+              Lue lisää
+            </Button>
+          </CardContent>
+        </Card>
+
+        {/* Vesikatto ja peltityöt */}
+        <Card className="flex flex-col">
+          <CardHeader className="pb-2">
+            <div className="relative w-full h-48 mb-4 rounded-t-lg overflow-hidden">
+              <Image src="/images/vesikatto.jpeg" alt="Vesikatto ja peltityöt" fill className="object-cover" />
+            </div>
+            <CardTitle>Vesikatto ja peltityöt</CardTitle>
+            <CardDescription className="text-base">
+              Vesikattojen uusiminen ja peltityöt ammattitaidolla ja laadukkailla materiaaleilla.
+            </CardDescription>
+          </CardHeader>
+          <CardContent className="flex-1 flex flex-col">
+            <ul className="space-y-2 mb-6 flex-1">
+              <li className="flex items-start">
+                <CheckCircle className="mr-2 h-5 w-5 text-primary mt-0.5" />
+                <span>Vesikattojen uusiminen</span>
+              </li>
+              <li className="flex items-start">
+                <CheckCircle className="mr-2 h-5 w-5 text-primary mt-0.5" />
+                <span>Kattoturvatuotteet</span>
+              </li>
+              <li className="flex items-start">
+                <CheckCircle className="mr-2 h-5 w-5 text-primary mt-0.5" />
+                <span>Sadevesijärjestelmät</span>
+              </li>
+              <li className="flex items-start">
+                <CheckCircle className="mr-2 h-5 w-5 text-primary mt-0.5" />
+                <span>Peltityöt ja pellitykset</span>
+              </li>
+            </ul>
+            <Button variant="outline" size="sm" className="w-fit">
+              Lue lisää
+            </Button>
+          </CardContent>
+        </Card>
+
+        {/* Huoneistoremontit & märkätilat */}
+        <Card className="flex flex-col">
+          <CardHeader className="pb-2">
+            <div className="relative w-full h-48 mb-4 rounded-t-lg overflow-hidden">
+              <Image
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_0268-682x1024.jpg-xAjSYeGuinfxofxsYVakfA58d5VIRF.jpeg"
+                alt="Huoneistoremontit & märkätilat"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <CardTitle>Huoneistoremontit & märkätilat</CardTitle>
+            <CardDescription className="text-base">
+              Asuntojen ja märkätilojen remontit avaimet käteen -periaatteella.
+            </CardDescription>
+          </CardHeader>
+          <CardContent className="flex-1 flex flex-col">
+            <ul className="space-y-2 mb-6 flex-1">
+              <li className="flex items-start">
+                <CheckCircle className="mr-2 h-5 w-5 text-primary mt-0.5" />
+                <span>Kylpyhuoneremontit</span>
+              </li>
+              <li className="flex items-start">
+                <CheckCircle className="mr-2 h-5 w-5 text-primary mt-0.5" />
+                <span>Keittiöremontit</span>
+              </li>
+              <li className="flex items-start">
+                <CheckCircle className="mr-2 h-5 w-5 text-primary mt-0.5" />
+                <span>Huoneistoremontit</span>
+              </li>
+              <li className="flex items-start">
+                <CheckCircle className="mr-2 h-5 w-5 text-primary mt-0.5" />
+                <span>Pintaremontit</span>
+              </li>
+            </ul>
+            <Button variant="outline" size="sm" className="w-fit">
+              Lue lisää
+            </Button>
+          </CardContent>
+        </Card>
+
+        {/* Museokohteet */}
+        <Card className="flex flex-col">
+          <CardHeader className="pb-2">
+            <div className="relative w-full h-48 mb-4 rounded-t-lg overflow-hidden">
+              <Image
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/5781196110580ca5d21bce66dc2c5c61-N35Zp9SyJfyANM6ges1bM8ZVyZtdw9.png"
+                alt="Museokohteet"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <CardTitle>Museokohteet</CardTitle>
+            <CardDescription className="text-base">
+              Historiallisten ja suojeltujen kohteiden kunnostustyöt niiden arvoa kunnioittaen.
+            </CardDescription>
+          </CardHeader>
+          <CardContent className="flex-1 flex flex-col">
+            <ul className="space-y-2 mb-6 flex-1">
+              <li className="flex items-start">
+                <CheckCircle className="mr-2 h-5 w-5 text-primary mt-0.5" />
+                <span>Restaurointi</span>
+              </li>
+              <li className="flex items-start">
+                <CheckCircle className="mr-2 h-5 w-5 text-primary mt-0.5" />
+                <span>Konservointi</span>
+              </li>
+              <li className="flex items-start">
+                <CheckCircle className="mr-2 h-5 w-5 text-primary mt-0.5" />
+                <span>Rakenteiden vahvistaminen</span>
+              </li>
+              <li className="flex items-start">
+                <CheckCircle className="mr-2 h-5 w-5 text-primary mt-0.5" />
+                <span>Perinteiset rakennustekniikat</span>
+              </li>
+            </ul>
+            <Button variant="outline" size="sm" className="w-fit">
+              Lue lisää
+            </Button>
+          </CardContent>
+        </Card>
       </div>
 
       {/* CTA Section */}
@@ -259,11 +259,12 @@ export default function ServicesPage() {
           <p className="text-muted-foreground mb-8 md:text-lg">
             Ota yhteyttä ja kerro meille tarpeistasi. Autamme sinua toteuttamaan projektisi alusta loppuun.
           </p>
-          <Button size="lg" className="px-8" asChild>
-            <Link href="/yhteystiedot">Pyydä tarjous</Link>
+          <Button size="lg" className="px-8">
+            Pyydä tarjous
           </Button>
         </div>
       </div>
     </div>
   )
 }
+

@@ -10,12 +10,8 @@ export default function ApartmentWetRoomsPage() {
     {
       title: "Huopalahdentie 3, Helsinki",
       description: "Taloyhtiön saunaosastojen saneeraus",
-      image:
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/17a754cf39913d48064841308c563241-5wnmQyc3pS3b19FwK7e6msJRtQvF0a.png",
-      image2:
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/955a24b7997054f7699577cd28066183-TGmLSwE4ZmhyuGD3hZSSXkzML8zp63.png",
-      image3:
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/693887107fa0a418cfaf693ec7cc900f-SlFUxXGchFDjflG9sHYwhhx5QK9XiU.png",
+      image: "/images/wooden-sauna.jpeg",
+      image2: "/images/white-sauna.jpeg",
       details: [
         "Helsingissä tehtiin 3 saunaston saneeraustyö.",
         "Purettiin vanhat saunat pois ja tehtiin kaikki uusiksi (seinät, lattiat, paneloinnit sekä lauteet).",
@@ -31,6 +27,29 @@ export default function ApartmentWetRoomsPage() {
       image2: "/images/galley-kitchen.jpeg",
       details:
         "Projekti sisälsi vanhan keittiön purkamisen ja täydellisen uudistuksen. Uusi keittiö toteutettiin modernilla ilmeellä, jossa harmaat kaapistot, valkoiset työtasot ja LED-valaistus luovat tyylikkään kokonaisuuden. Keittiöön asennettiin uudet kodinkoneet ja lattia uusittiin.",
+    },
+    {
+      title: "Kylpyhuoneremontti, Espoo",
+      description: "Täydellinen kylpyhuoneen uudistus kerrostaloasunnossa",
+      image: "/images/modern-bathroom.jpeg",
+      image2: "/images/walk-in-shower.jpeg",
+      details:
+        "Projekti sisälsi vanhan kylpyhuoneen purkamisen, vesieristyksen, laatoituksen, kalusteasennukset ja valaistuksen uusimisen. Lopputuloksena moderni ja toimiva kylpyhuone kiiltävillä laatoilla ja laadukkailla kalusteilla.",
+    },
+    {
+      title: "Avara olohuone, Vantaa",
+      description: "Olohuoneen täydellinen uudistus",
+      image: "/images/modern-living-room.jpeg",
+      image2: "/images/minimalist-living-room.jpeg",
+      details:
+        "Olohuoneen täydellinen uudistus, jossa vanha sisustus purettiin ja tila uudistettiin modernilla ilmeellä. Projektiin sisältyi lattian uusiminen, seinien maalaus, valaistuksen suunnittelu ja toteutus sekä takka-asennus.",
+    },
+    {
+      title: "Huoneistoremontti, Vantaa",
+      description: "Kolmion täydellinen remontti",
+      image: "/images/modern-staircase.jpeg",
+      details:
+        "Koko asunnon kattava remontti, jossa uusittiin kaikki pinnat, keittiö ja kylpyhuone. Projektiin sisältyi myös tilamuutoksia, sähkö- ja putkitöitä sekä uudet kiintokalusteet. Portaikko uusittiin modernilla lasikaiteella.",
     },
   ]
 
@@ -91,9 +110,7 @@ export default function ApartmentWetRoomsPage() {
                   </ul>
                 </div>
               </div>
-              <Button asChild>
-                <Link href="/yhteystiedot">Pyydä tarjous</Link>
-              </Button>
+              <Button>Pyydä tarjous</Button>
             </div>
           </div>
         </Card>
@@ -244,36 +261,21 @@ export default function ApartmentWetRoomsPage() {
                 </ul>
               </div>
 
-              <Button className="mt-4" asChild>
-                <Link href="/yhteystiedot">Pyydä vastaava tarjous</Link>
-              </Button>
+              <Button className="mt-4">Pyydä vastaava tarjous</Button>
             </div>
 
             <div className="space-y-4">
               <div className="grid grid-cols-2 gap-4">
                 <div className="relative h-64 w-full">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/17a754cf39913d48064841308c563241-5wnmQyc3pS3b19FwK7e6msJRtQvF0a.png"
+                    src="/images/wooden-sauna.jpeg"
                     alt="Taloyhtiön sauna"
                     fill
                     className="object-cover rounded-lg"
                   />
                 </div>
                 <div className="relative h-64 w-full">
-                  <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/955a24b7997054f7699577cd28066183-TGmLSwE4ZmhyuGD3hZSSXkzML8zp63.png"
-                    alt="Taloyhtiön suihkutila"
-                    fill
-                    className="object-cover rounded-lg"
-                  />
-                </div>
-                <div className="relative h-64 w-full col-span-2">
-                  <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/693887107fa0a418cfaf693ec7cc900f-SlFUxXGchFDjflG9sHYwhhx5QK9XiU.png"
-                    alt="Taloyhtiön pukuhuone"
-                    fill
-                    className="object-cover rounded-lg"
-                  />
+                  <Image src="/images/white-sauna.jpeg" alt="Moderni sauna" fill className="object-cover rounded-lg" />
                 </div>
               </div>
             </div>
@@ -334,10 +336,9 @@ export default function ApartmentWetRoomsPage() {
         <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
           Ota yhteyttä ja kerro meille toiveistasi. Autamme sinua suunnittelussa ja toteutuksessa alusta loppuun.
         </p>
-        <Button size="lg" asChild>
-          <Link href="/yhteystiedot">Ota yhteyttä</Link>
-        </Button>
+        <Button size="lg">Ota yhteyttä</Button>
       </div>
     </div>
   )
 }
+
